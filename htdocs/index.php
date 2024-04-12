@@ -1,5 +1,6 @@
     <!-- EM PHP -->
  <?php
+    include("config.php");
 
     $cidade = isset($_GET["buscaCidade"]) ? $_GET["buscaCidade"]: "";
     $estado = isset($_GET["estados"]) ? $_GET["estados"]: "";
@@ -9,7 +10,7 @@
     $ch = curl_init();
 
     // Configura a URL e opções
-    curl_setopt($ch, CURLOPT_URL, "https://api.hgbrasil.com/weather?key=&city_name=$cidade,$estado");
+    curl_setopt($ch, CURLOPT_URL, "https://api.hgbrasil.com/weather?key=".SECRET_TOKEN_HG."&city_name=$cidade,$estado");
     curl_setopt($ch, CURLOPT_HEADER, 0);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
