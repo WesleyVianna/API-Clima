@@ -43,9 +43,9 @@ Este projeto foi desenvolvido apenas para fins educacionais e de demonstração.
 
 Screenshots:
 
-Tela inicial, antes de fazer as escolhas do estado e cidade: ![image](https://github.com/WesleyVianna/API_Clima/assets/105057731/e0a43474-ce09-4434-a6b9-73d0d3a5df3e)
+Tela inicial, antes de fazer as escolhas do estado e cidade: ![image](https://github.com/WesleyVianna/API-Clima/blob/main/htdocs/Tela_Inicial.png)
 
-Tela após a escolha do estado e cidade: ![image](https://github.com/WesleyVianna/API_Clima/assets/105057731/0412c9a5-6f80-47a1-96ba-bb8db9f254de)
+Tela após a escolha do estado e cidade: ![image](https://github.com/WesleyVianna/API-Clima/blob/main/htdocs/Tela_Final.png)
 
 Nota-se que contém informações do resultado da pesquisa, a temperatura do local, o mapa, o tipo de clima e como será os climas nos próximos 10 (dez) dias.
 
