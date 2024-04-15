@@ -95,7 +95,7 @@ if ($decoded === null || !isset($decoded[0]["lat"], $decoded[0]["lon"])) {
             <center>
                 <nav>
                     |
-                    <a href="http://localhost/"> Inicio</a>
+                    <a href="http://localhost/API_Clima/htdocs/"> Inicio</a>
                     |
                     <a href="https://www.climatempo.com.br/" target="_blank"> Climatempo</a>
                     |
@@ -171,7 +171,7 @@ if ($decoded === null || !isset($decoded[0]["lat"], $decoded[0]["lon"])) {
 
             $(document).ready(function() {
                 // Altera o atributo action do formulário para localhost sem index.php
-                $("form").attr("action", "http://localhost");
+                $("form").attr("action", "http://localhost/API_Clima/htdocs/");
             });
             
             // Carregar os estados do arquivo JSON
